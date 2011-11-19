@@ -1,5 +1,9 @@
+call pathogen#infect('~/vim/bundle')
+
 colorscheme railscasts
-syntax on	    
+syntax on
+filetype on
+
 if has('win32') 
     set guifont=consolas:h10
 endif
