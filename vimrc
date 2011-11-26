@@ -23,6 +23,8 @@ set ruler
 " keep same indent as current line
 set autoindent
 
+filetype plugin indent on
+
 " better tab completion
 set wildmenu
 set wildmode=list:longest
