@@ -6,6 +6,8 @@ filetype on
 
 if has('win32') 
     set guifont=consolas:h10
+elseif has('mac')
+    set guifont=menlo:h12
 endif
     
 set softtabstop=4
